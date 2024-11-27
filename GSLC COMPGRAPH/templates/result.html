@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasil Konversi</title>
+</head>
+<body>
+    <h1>Hasil Konversi Gambar</h1>
+    <div style="display: flex; gap: 20px;">
+        <div>
+            <h2>Gambar Asli</h2>
+            <img src="{{ original }}" alt="Original Image" width="300">
+        </div>
+        <div>
+            <h2>Gambar Hasil</h2>
+            <img src="{{ processed }}" alt="Processed Image" width="300">
+        </div>
+    </div>
+    <br>
+    <a href="/">Kembali</a> | 
+    <a href="/download_report">Download Laporan</a>
+</body>
+</html>

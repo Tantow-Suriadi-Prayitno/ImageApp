@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Converter</title>
+</head>
+<body>
+    <h1>Upload Gambar</h1>
+    <form action="/" method="POST" enctype="multipart/form-data">
+        <label for="image">Pilih Gambar:</label>
+        <input type="file" id="image" name="image" required>
+        <br><br>
+        <label for="option">Pilih Transformasi:</label>
+        <select id="option" name="option" required>
+            <option value="grayscale">Grayscale</option>
+            <option value="blur">Blur</option>
+        </select>
+        <br><br>
+        <button type="submit">Proses</button>
+    </form>
+</body>
+</html>
